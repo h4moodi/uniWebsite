@@ -1,0 +1,675 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hama's Project</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header-section">
+      <nav class="nav-bar">
+        <div class="logo-area">
+          <span class="site-title">hama-shazad.dev</span>
+        </div>
+        <ul class="head-list">
+          <li class="list-item"><a href="#intro">Intro</a></li>
+          <li class="list-item"><a href="#subjects">Subjects</a></li>
+          <li class="list-item"><a href="#study-log">Study Log</a></li>
+          <li class="list-item"><a href="#future">Future</a></li>
+          <li class="list-item"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="hero" aria-label="Hero banner">
+      <div class="hero-web-bg" aria-hidden="true"></div>
+      <img
+        src="images/200w.gif"
+        alt=""
+        class="spiderman-swing"
+        aria-hidden="true"
+      />
+      <div class="hero-content">
+        <p class="hero-eyebrow">CS304 Web Technologies</p>
+        <h1 class="hero-title">
+          With <em>great power</em><br />comes great <strong>code</strong>.
+        </h1>
+        <p class="hero-sub">
+          Personal Study &amp; Revision Tracker By Mohammed Shazad · UKH
+          Software Engineering UG3
+        </p>
+        <a href="#intro" class="hero-cta">Swing in :)</a>
+      </div>
+    </section>
+    <div class="page-wrapper">
+      <main id="main-section">
+        <section id="intro" class="section-block intro-section">
+          <h2 class="section-heading">About Me</h2>
+          <div class="intro-grid">
+            <article class="intro-card" id="intro-studying">
+              <h3>Studying</h3>
+              <p>
+                I am currently studying <strong>Software Engineering</strong> at
+                the
+                <a href="https://ukh.edu.krd" target="_blank"
+                  >University of Kurdistan Hewler</a
+                >. I am a UG3 student in <em>Web Technologies</em> (CS304),
+                working on this mini project for Ms. Israa. I promise I didn't
+                use AI for the creation of anything here if you need proof, ask
+                me what my favourite song is and I'll tell you it's the outro to
+                <em>JoJo's Bizarre Adventure Part 5</em>.
+              </p>
+            </article>
+
+            <article class="intro-card" id="intro-skills">
+              <h3>What I Know</h3>
+              <p>
+                I know a lot of things, but importantly I know
+                <strong>HTML</strong> and <strong>CSS</strong> as you can see
+                here. I know <strong>Java</strong> and <strong>Ruby</strong> as
+                programming languages. I also dabble in <strong>Linux</strong>
+                I know all about its kernel structure and have the OS on many
+                devices. I also love fixing PCs and understand the complete
+                architectural structure needed to create data centres and
+                networks throughout any sort of building.
+              </p>
+            </article>
+            <article class="intro-card intro-card--wide" id="intro-fact">
+              <h3>Cool Fact</h3>
+              <p>
+                Hirohiko Araki, the creator of
+                <em>JoJo's Bizarre Adventure</em>, is one of the only manga
+                artists in history to have his artwork officially exhibited in
+                the world-famous <strong>Louvre Museum</strong> in Paris.
+              </p>
+            </article>
+          </div>
+        </section>
+        <section id="subjects" class="section-block">
+          <h2 class="section-heading">Subjects &amp; Skills</h2>
+          <p class="section-intro">
+            Here's a list of the subjects and skills I'm currently working on,
+            with a breakdown of what I'm learning.
+          </p>
+          <div class="subjects-grid">
+            <article class="subject-card" id="subj-html-css">
+              <div class="subject-card__header">
+                <h3>HTML &amp; CSS</h3>
+              </div>
+              <dl class="subject-dl">
+                <dt>What I'm learning</dt>
+                <dd>
+                  Semantic HTML (header, nav, main, section, article, aside,
+                  footer), CSS box model, Flexbox, Grid, selectors (class, ID,
+                  pseudo-class, attribute), positioning, typography, colours,
+                  and background properties the full CS304 syllabus.
+                </dd>
+                <dt>Why I'm studying it</dt>
+                <dd>
+                  HTML and CSS are the foundation of the web. Mastering them is
+                  the first step towards full-stack development and DevOps, my
+                  career goal.
+                </dd>
+                <dt>How I practice</dt>
+                <dd>
+                  Building projects like this one, replicating layouts from
+                  scratch, and reading MDN documentation daily.
+                </dd>
+              </dl>
+            </article>
+            <article class="subject-card" id="subj-ruby">
+              <div class="subject-card__header">
+                <h3>Ruby Programming</h3>
+              </div>
+              <dl class="subject-dl">
+                <dt>What I'm learning</dt>
+                <dd>
+                  Object-oriented Ruby: classes, modules, blocks, iterators,
+                  file I/O, and building small command-line applications such as
+                  a chess game.
+                </dd>
+                <dt>Why I'm studying it</dt>
+                <dd>
+                  Ruby is expressive and concise great for rapid prototyping and
+                  its framework Ruby on Rails is a powerful tool I want to
+                  master for backend web development.
+                </dd>
+                <dt>How I practice</dt>
+                <dd>
+                  Writing Ruby programs in the terminal on Ubuntu, solving
+                  problems, and extending a chess game engine I built from
+                  scratch.
+                </dd>
+              </dl>
+            </article>
+            <article class="subject-card" id="subj-linux">
+              <div class="subject-card__header">
+                <h3>Linux &amp; Systems</h3>
+              </div>
+              <dl class="subject-dl">
+                <dt>What I'm learning</dt>
+                <dd>
+                  Linux kernel architecture, shell scripting (bash), file system
+                  hierarchy, process management, networking commands, and
+                  package management (apt).
+                </dd>
+                <dt>Why I'm studying it</dt>
+                <dd>
+                  DevOps and server infrastructure run on Linux. Understanding
+                  the OS at a deep level separates a good engineer from a great
+                  one.
+                </dd>
+                <dt>How I practice</dt>
+                <dd>
+                  Running Ubuntu as a primary or dual-boot OS on multiple
+                  machines, using the terminal daily for all development tasks.
+                </dd>
+              </dl>
+            </article>
+            <article class="subject-card" id="subj-networking">
+              <div class="subject-card__header">
+                <h3>Computer Networking</h3>
+              </div>
+              <dl class="subject-dl">
+                <dt>What I'm learning</dt>
+                <dd>
+                  OSI model, TCP/IP stack, IP addressing &amp; subnetting, DNS,
+                  HTTP/HTTPS, routing protocols, and physical network design for
+                  buildings and data centres.
+                </dd>
+                <dt>Why I'm studying it</dt>
+                <dd>
+                  Networking is the backbone of everything I want to do from
+                  DevOps pipelines to designing the infrastructure at my dream
+                  company, DIT.
+                </dd>
+                <dt>How I practice</dt>
+                <dd>
+                  Reading textbooks, setting up home lab environments, and
+                  physically designing mock network layouts for hypothetical
+                  office buildings.
+                </dd>
+              </dl>
+            </article>
+          </div>
+        </section>
+        <section id="study-log" class="section-block">
+          <h2 class="section-heading">Study Log 3 Days</h2>
+          <p class="section-intro">
+            Real evidence of study activity across three consecutive days (3 May
+            - 5 May 2026) covering at least three subjects or skills.
+          </p>
+
+          <div class="study-days">
+            <article class="day-article" id="day1">
+              <header class="day-header">
+                <h3>Day 1</h3>
+                <time datetime="2026-05-03" class="day-date"
+                  >Saturday · May 3<sup>rd</sup>, 2026</time
+                >
+              </header>
+              <div class="day-entries">
+                <div class="entry-card entry-card--double">
+                  <span class="entry-tag entry-tag--ruby">Ruby</span>
+                  <h4>Chess Game Terminal &amp; Code</h4>
+                  <figure>
+                    <img
+                      src="images/ubuntuTerm.png"
+                      alt="Chess Engine v0.1 running in the Ubuntu terminal with the full ASCII board"
+                      class="entry-img"
+                    />
+                    <figcaption>
+                      <time datetime="2026-05-03">May 3<sup>rd</sup></time>
+                      Chess Engine v0.1 (Target: 2240 ELO) live in the terminal.
+                    </figcaption>
+                  </figure>
+                  <figure>
+                    <img
+                      src="images/codeOfChess.png"
+                      alt="VS Code showing chess_tui.rb Ruby source code, class ChesTUI"
+                      class="entry-img"
+                    />
+                    <figcaption>
+                      <time datetime="2026-05-03">May 3<sup>rd</sup></time>
+                      Source code in VS Code: <code>chess_tui.rb</code>, class
+                      <code>ChesTUI</code>.
+                    </figcaption>
+                  </figure>
+                  <p>
+                    Built a fully playable chess engine in Ruby using
+                    <code>tty-cursor</code>, <code>tty-reader</code>, and
+                    <code>pastel</code> gems. Practiced OOP: classes,
+                    <code>attr_reader</code>, instance variables, and
+                    array-based board setup with an
+                    <code>8.times</code> iterator block.
+                  </p>
+                </div>
+
+                <div class="entry-card">
+                  <span class="entry-tag entry-tag--linux">Linux</span>
+                  <h4>Mapscii World Map in the Terminal</h4>
+                  <figure>
+                    <img
+                      src="images/mapscii.png"
+                      alt="Mapscii ASCII world map renderer running inside the Ubuntu terminal"
+                      class="entry-img"
+                    />
+                    <figcaption>
+                      <time datetime="2026-05-03">May 3<sup>rd</sup></time>
+                      Mapscii rendering a full world map in the Linux terminal.
+                    </figcaption>
+                  </figure>
+                  <p>
+                    Explored Linux terminal tooling by installing and running
+                    Mapscii via
+                    <code>npm</code>. Practiced reading coordinates
+                    and zooming reinforcing the terminal as a complete working
+                    environment.
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="day-article" id="day2">
+              <header class="day-header">
+                <h3>Day 2</h3>
+                <time datetime="2026-05-04" class="day-date"
+                  >Sunday · May 4<sup>th</sup>, 2026</time
+                >
+              </header>
+
+              <div class="day-entries">
+                <div class="entry-card">
+                  <span class="entry-tag entry-tag--linux"
+                    >Linux / AI Tools</span
+                  >
+                  <h4>Gemini CLI AI in the Terminal</h4>
+                  <figure>
+                    <img
+                      src="images/gemini.png"
+                      alt="Gemini CLI running in the terminal, with a greeting sent to Professor Ms. Israa"
+                      class="entry-img"
+                    />
+                    <figcaption>
+                      <time datetime="2026-05-04">May 4<sup>th</sup></time>
+                      Gemini CLI running inside the Linux
+                      terminal.
+                    </figcaption>
+                  </figure>
+                  <p>
+                    Set up and explored Gemini CLI as an AI coding assistant in
+                    the terminal. Learned to pass prompts, edit code, and run
+                    commands through a conversational interface and sent Ms.
+                    Israa a greeting through it as proof of the date.
+                  </p>
+                </div>
+                <div class="entry-card">
+                  <span class="entry-tag entry-tag--ruby">Problem Solving</span>
+                  <h4>Rubik's Cube Scrambled State</h4>
+                  <figure>
+                    <img
+                      src="images/rubikscube.jpg"
+                      alt="Unsolved Rubik's cube on a laptop keyboard showing mixed colours, 5:02 PM May 4"
+                      class="entry-img"
+                    />
+                    <figcaption>
+                      <time datetime="2026-05-04">May 4<sup>th</sup></time>
+                      Starting position: fully scrambled, 5:02 PM.
+                    </figcaption>
+                  </figure>
+                  <p>
+                    Applied algorithmic thinking to the Rubik's cube the same
+                    structured, step-by-step problem decomposition used in
+                    programming. Began solving from a fully scrambled state
+                    layer by layser.
+                  </p>
+                </div>
+
+                <div class="entry-card">
+                  <span class="entry-tag entry-tag--ruby">Problem Solving</span>
+                  <h4>Rubik's Cube Solved in 2 Minutes</h4>
+                  <figure>
+                    <img
+                      src="images/rubiksdone.jpg"
+                      alt="Solved Rubik's cube with a full yellow top face on a laptop keyboard, 5:04 PM May 4"
+                      class="entry-img"
+                    />
+                    <figcaption>
+                      <time datetime="2026-05-04">May 4<sup>th</sup></time>
+                      Solved state: all faces complete, 5:04 PM.
+                    </figcaption>
+                  </figure>
+                  <p>
+                    Solved it in under 2 minutes. I apply to debugging identify the problem,
+                    isolate it, apply a known algorithm, and verify the result. The algorithm is called CFOP
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="day-article" id="day3">
+              <header class="day-header">
+                <h3>Day 3</h3>
+                <time datetime="2026-05-07" class="day-date"
+                  >Wednesday · May 7<sup>th</sup>, 2026</time
+                >
+              </header>
+
+              <div class="day-entries">
+                <div class="entry-card">
+                  <span class="entry-tag entry-tag--web">Java</span>
+                  <h4>Java Roadmap 36% Complete</h4>
+                  <figure>
+                    <img
+                      src="images/roadmap.png"
+                      alt="roadmap.sh/java "
+                      class="entry-img"
+                    />
+                    <figcaption>
+                      <time datetime="2026-05-07">May 7<sup>th</sup></time>
+                      roadmap.sh/java: 32 of 88 topics done (36%).
+                    </figcaption>
+                  </figure>
+                  <p>
+                    Worked through the roadmap.sh Java path covering OOP
+                    (Inheritance, Encapsulation, Interfaces, Abstraction),
+                    Collections (ArrayList, Set, Map, Queue), Lambda
+                    Expressions, Annotations, and Concurrency topics.
+                  </p>
+                </div>
+
+                <div class="entry-card">
+                  <span class="entry-tag entry-tag--net">Database / SE302</span>
+                  <h4>phpMyAdmin CEMS Database Design</h4>
+                  <figure>
+                    <img
+                      src="images/hossein.jpg"
+                      alt="phpMyAdmin"
+                      class="entry-img"
+                    />
+                    <figcaption>
+                      <time datetime="2026-05-07">May 7<sup>th</sup></time>
+                      Designing the CEMS database schema in phpMyAdmin.
+                    </figcaption>
+                  </figure>
+                  <p>
+                    Worked on the SE302 group project (Campus Event Management
+                    System). Designed tables <code>approved</code>,
+                    <code>events</code>, <code>event_files</code>,
+                    <code>users</code> in MySQL via phpMyAdmin, defining
+                    primary keys, AUTO_INCREMENT fields, and table relations.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+        <section id="future" class="section-block">
+          <h2 class="section-heading">What's Next</h2>
+          <div class="future-flex">
+            <article class="future-card">
+              <h3>What I Will Learn</h3>
+              <ol class="future-list">
+                <li>Mastery of Computer Networking (CCNA-level)</li>
+                <li>Ruby and Ruby on Rails framework</li>
+                <li>Spring Boot to make Java skills production-ready</li>
+                <li>LAMP stack for CRUD web applications</li>
+                <li>Docker &amp; Kubernetes for container orchestration</li>
+                <li>
+                  Complete mastery of the computer creation and infrastructure
+                  art
+                </li>
+              </ol>
+            </article>
+
+            <article class="future-card">
+              <h3>Where I Will End Up</h3>
+              <p>
+                I would love to end up as a <strong>DevOps Engineer</strong> at
+                DIT an institute of great innovation towards technology. I
+                want to bridge the gap between software development and
+                infrastructure, building pipelines and systems that let
+                developers ship fast and safely.
+              </p>
+            </article>
+
+            <article class="future-card">
+              <h3>What Impact I Will Have</h3>
+              <p>
+                I will make life easier for people in the digital world by
+                providing services that can impact lives in many ways reliable
+                infrastructure, fast applications, and well-designed systems
+                that simply work, no matter who is on the other end of the
+                screen.
+              </p>
+            </article>
+          </div>
+        </section>
+        <section id="contact" class="section-block">
+          <h2 class="section-heading">Contact Me</h2>
+          <p class="section-intro">
+            Got a question about my project? Fill in the form below.
+          </p>
+
+          <form action="#" method="POST" class="contact-form">
+            <fieldset class="form-fieldset">
+              <legend>Your Details</legend>
+
+              <div class="form-row">
+                <label for="contact-name">Full Name</label>
+                <input
+                  type="text"
+                  id="contact-name"
+                  name="fullname"
+                  placeholder="Peter Parker"
+                  maxlength="80"
+                  required
+                />
+              </div>
+
+              <div class="form-row">
+                <label for="contact-email">Email Address</label>
+                <input
+                  type="email"
+                  id="contact-email"
+                  name="email"
+                  placeholder="you@example.com"
+                  required
+                />
+              </div>
+
+              <div class="form-row">
+                <label for="contact-subject">Subject Area</label>
+                <select id="contact-subject" name="subject">
+                  <option value=""> Choose a topic </option>
+                  <option value="html-css">HTML &amp; CSS</option>
+                  <option value="ruby">Ruby Programming</option>
+                  <option value="linux">Linux &amp; Systems</option>
+                  <option value="networking">Computer Networking</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+            </fieldset>
+
+            <fieldset class="form-fieldset">
+              <legend>Your Message</legend>
+
+              <div class="form-row">
+                <label for="contact-message">Message</label>
+                <textarea
+                  id="contact-message"
+                  name="message"
+                  rows="5"
+                  cols="50"
+                  placeholder="Ask me anything about the project..."
+                  maxlength="500"
+                ></textarea>
+              </div>
+
+              <div class="form-row form-row--radio">
+                <p>How did you find this page?</p>
+                <label
+                  ><input type="radio" name="referral" value="moodle" checked />
+                  Moodle</label
+                >
+                <label
+                  ><input type="radio" name="referral" value="classmate" />
+                  Classmate</label
+                >
+                <label
+                  ><input type="radio" name="referral" value="google" />
+                  Google</label
+                >
+                <label
+                  ><input type="radio" name="referral" value="other" />
+                  Other</label
+                >
+              </div>
+
+              <div class="form-row form-row--checkbox">
+                <p>Topics you're interested in:</p>
+                <label
+                  ><input type="checkbox" name="interest" value="css" checked />
+                  CSS Layout</label
+                >
+                <label
+                  ><input type="checkbox" name="interest" value="ruby" />
+                  Ruby</label
+                >
+                <label
+                  ><input type="checkbox" name="interest" value="linux" />
+                  Linux</label
+                >
+                <label
+                  ><input type="checkbox" name="interest" value="devops" />
+                  DevOps</label
+                >
+              </div>
+            </fieldset>
+
+            <button type="submit" class="submit-btn">Send Message 🕷️</button>
+          </form>
+        </section>
+      </main>
+      <aside class="sidebar" aria-label="Quick reference sidebar">
+        <section class="sidebar-widget">
+          <h3>Quick Links</h3>
+          <ul class="sidebar-list">
+            <li><a href="#intro">About Me</a></li>
+            <li><a href="#subjects">Subjects</a></li>
+            <li><a href="#study-log">Study Log</a></li>
+            <li><a href="#future">Future</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </section>
+
+        <section class="sidebar-widget">
+          <h3>CS304 Concepts Used</h3>
+          <dl class="sidebar-dl">
+            <dt>Semantic HTML</dt>
+            <dd>
+              header, nav, main, section, article, aside, footer, figure, time,
+              dl, fieldset
+            </dd>
+            <dt>CSS Selectors</dt>
+            <dd>
+              element, class, id, pseudo-class (:hover, :focus), attribute,
+              descendant, child
+            </dd>
+            <dt>Box Model</dt>
+            <dd>
+              width, height, padding, border, margin, box-sizing, overflow
+            </dd>
+            <dt>Flexbox</dt>
+            <dd>
+              display:flex, flex-direction, justify-content, align-items,
+              flex-wrap, gap, order
+            </dd>
+            <dt>CSS Grid</dt>
+            <dd>
+              grid-template-columns/rows/areas, fr, repeat(), gap,
+              grid-column/row, align/justify-self
+            </dd>
+            <dt>Positioning</dt>
+            <dd>sticky (header), relative, z-index</dd>
+            <dt>Typography</dt>
+            <dd>
+              font-family, font-size (rem/em), font-weight, line-height,
+              text-align
+            </dd>
+            <dt>Colours</dt>
+            <dd>CSS colors, and properties</dd>
+            <dt>Backgrounds</dt>
+            <dd>background-color, background-image, background-size: cover</dd>
+            <dt>Forms</dt>
+            <dd>
+              input (text, email, radio, checkbox), select, textarea, label,
+              fieldset, legend
+            </dd>
+          </dl>
+        </section>
+
+        <section class="sidebar-widget">
+          <h3>Study Days</h3>
+          <table class="sidebar-table">
+            <caption>
+              Evidence Summary
+            </caption>
+            <thead>
+              <tr>
+                <th>Subject</th>
+                <th>Day 1</th>
+                <th>Day 2</th>
+                <th>Day 3</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>HTML/CSS</td>
+                <td>✔</td>
+                <td>✔</td>
+                <td>✔</td>
+              </tr>
+              <tr>
+                <td>Ruby</td>
+                <td>✔</td>
+                <td>-</td>
+                <td>✔</td>
+              </tr>
+              <tr>
+                <td>Linux</td>
+                <td>✔</td>
+                <td>-</td>
+                <td>✔</td>
+              </tr>
+              <tr>
+                <td>Networking</td>
+                <td>-</td>
+                <td>✔</td>
+                <td>-</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+      </aside>
+    </div>
+    <footer id="footer-section">
+      <div class="footer-inner">
+        <p class="footer-text">
+          Made by <strong>Mohammed Shazad</strong> · CS304 Web Technologies ·
+          UKH
+        </p>
+        <p class="footer-sub">
+          <em>"With great power comes great responsibility."</em>
+        </p>
+        <hr class="footer-hr" />
+        <p class="footer-copy">© 2026 Mohammed Shazad · All Rights Reserved</p>
+      </div>
+    </footer>
+  </body>
+</html>
